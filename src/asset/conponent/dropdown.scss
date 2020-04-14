@@ -1,0 +1,13 @@
+$large-button-width: 150px;
+$middle-button-width: 100px;
+$small-button-width: 50px;
+
+$max-dropdown-height: 300px;
+
+.dropdown-button {
+  width: $large-button-width
+}
+.dropdown-menu {
+  max-height: $max-dropdown-height;
+  overflow-y: scroll;
+}
