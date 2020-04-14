@@ -7,10 +7,10 @@ import Area from './Area';
 function Main(): JSX.Element {
   return (
     <div className='max-width-container m-auto'>
-        <Banner/>
-        <Area />
-        <Graphic/>
-        <Footer/>
+      <Banner/>
+      <Area />
+      <Graphic/>
+      <Footer/>
     </div>
   );
 }
